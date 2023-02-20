@@ -88,16 +88,57 @@ header {
 ul li {
   list-style: none;
   width: 349px;
-height: 26px;
+  height: 26px;
 
-font-weight: 400;
-font-size: 16px;
-color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
 }
 
-i{
-    color: rgb(21, 210, 130)
+i {
+  color: rgb(21, 210, 130);
 }
-
 
 /* end of failures part */
+.my-plan > h3 {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 55.7px;
+  font-weight: 700;
+  font-size: 40px;
+
+  color: #151414;
+}
+
+.plan-list {
+  display: flex;
+  margin-left: 230px;
+  margin-right: 230px;
+  justify-content: space-between;
+  gap: 84px;
+}
+
+.items {
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+.items h3 {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  /* line-height: 35px; */
+  text-align: center;
+
+  color: #151414;
+}
+
+.items p {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 25px;
+  /* line-height: 29px; */
+  text-align: center;
+
+  color: #737272;
+}
