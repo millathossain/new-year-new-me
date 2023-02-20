@@ -38,18 +38,66 @@ header {
 }
 
 .btn-primary {
-margin-top: 32px;
-width: 160px;
-height: 64px;
+  margin-top: 32px;
+  width: 160px;
+  height: 64px;
 
+  background: #f15b22;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 23px; */
+  /* text-align: right; */
 
-background: #F15B22;
-border-radius: 5px;
-border: 0;
-font-weight: 600;
-font-size: 20px;
-/* line-height: 23px; */
-/* text-align: right; */
-
-color: #FFFFFF;
+  color: #ffffff;
 }
+
+/* failures part CSS */
+.failures {
+  display: flex;
+  gap: 87px;
+}
+
+.failure-img {
+  margin-top: 131px;
+  margin-left: 206px;
+}
+
+.previous-failures {
+  margin-top: 370px;
+  margin-right: 322px;
+}
+
+.title {
+  width: 288px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.failure-description {
+  width: 416px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #444343;
+}
+
+ul li {
+  list-style: none;
+  width: 349px;
+height: 26px;
+
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+
+i{
+    color: rgb(21, 210, 130)
+}
+
+
+/* end of failures part */
