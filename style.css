@@ -145,7 +145,12 @@ i {
 
 /* Mindset CSS */
 .mindset {
-  background-image: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),url(images/watch.png);
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(images/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 330px;
@@ -158,30 +163,115 @@ top: 2222.26px; */
   border-radius: 8px;
 }
 
-.mindset>h2{
-    width: 459px;
-    font-weight: 700;
-font-size: 40px;
-padding-top: 59px;
-padding-left: 64px;
-padding-bottom: 24px;
-/* line-height: 47px; */
+.mindset > h2 {
+  width: 459px;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 59px;
+  padding-left: 64px;
+  padding-bottom: 24px;
+  /* line-height: 47px; */
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.mindset button{
-    width: 160px;
-height: 64px;
+.mindset button {
+  width: 160px;
+  height: 64px;
 
-border: 0;
-background: #FFFFFF;
-border-radius: 5px;
-font-weight: 600;
-font-size: 20px;
-margin-left: 64px;
-/* line-height: 23px; */
-text-align: center;
+  border: 0;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 64px;
+  /* line-height: 23px; */
+  text-align: center;
 
-color: #F15B22;
+  color: #f15b22;
+}
+
+/* Footer */
+.footer {
+  /* width: 1600px; */
+  height: 577px;
+
+  background: #151414;
+}
+
+.future {
+  display: flex;
+  gap: 330px;
+}
+.future-item {
+  padding-top: 130px;
+  padding-left: 230px;
+}
+.future-item h2,
+p {
+  color: #f8f8f8;
+}
+
+.future-item > h2 {
+  font-weight: 700;
+  font-size: 45px;
+
+  color: #f8f8f8;
+}
+
+.future-description {
+  width: 485px;
+  /* height: 78px; */
+
+  margin-top: 16px;
+  /* margin-bottom: 24px; */
+
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.contact {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.subscribe {
+  padding-top: 130px;
+}
+
+.subscribe input {
+  border: 1px solid gainsboro;
+  width: 325px;
+  height: 64px;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 21px;
+  background-color: #151414;
+  color: #f3f3f3;
+}
+.right-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+  color: #ffffff;
+}
+
+.btn-second {
+  width: 170.11px;
+  height: 64px;
+
+  margin-top: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #f15b22;
 }
